@@ -11,7 +11,6 @@ if __name__ == '__main__':
         for date, title, content in contents:
             title = title.replace('\n', ' ').replace('\r', '')
             title = title.replace('\"', '\"\"')
-            content = ''.join(content.split())
             content = ''.join(content)
             content = content.replace('\n', ' ').replace('\r', '')
             content = content.replace('\"', '\"\"')
